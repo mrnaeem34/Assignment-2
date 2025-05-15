@@ -127,6 +127,31 @@ padding-top: 30px;
 .text-part{
     color: white;
 }
+.color{
+    border-radius: 18px;
+    background: rgb(34, 34, 34);
+    width: 50%;
+    margin-left: 25%;
+}
+.container{
+    display: flex;
+    margin-top: 5%;
+     align-items: center;
+    justify-content: center;
+}
+.container img{
+    width: 30%;
+    height: 20%;
+    margin-left: 2%;
+    border-radius: 18px;
+
+}
+.btn-3{
+    width: 30%;
+}
+.sub-container{
+    
+}
 @media screen and (max-width: 576px) {
     .display-flex,
     .banner
@@ -157,7 +182,7 @@ border-radius: 42px;
    cursor: pointer;
 }
 .background-image img{
-    height: 43vh;
+    height: 30vh;
 }
 .header-title{
 font-weight: 700;
@@ -170,5 +195,16 @@ font-weight: 700;
     margin-left: 13%;
   
 }
-
+.container{
+    flex-direction: column;
+    /* margin-top: 5%;
+     align-items: center;
+    justify-content: center; */
+}
+.color{
+    width: 70%;
+    text-align: center;
+    justify-content: center;
+    height: auto; 
+}
 }
