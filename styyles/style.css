@@ -67,8 +67,9 @@ background: rgb(230, 83, 60);
     font-weight: 900;
     color: white;
 }
-.background-image{
-  
+.background-image img{
+  width: auto;
+  height: auto;
 
 }
 /* button style */
@@ -92,4 +93,82 @@ width: 18%;
 height: 5vh;
 font-weight: 600;
 cursor: pointer;
+}
+/* main style */
+.background-color{
+    background-color:  black;
+}
+.habbit-section{
+    text-align: center;
+    justify-content: center;
+}
+.habbit{
+    color: white;
+font-size: 2.5rem;
+font-weight: 900;
+padding-top: 30px;
+}
+.mangement-part{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);  
+    margin-left: 13%;
+  
+}
+.mangement img{
+    align-content: center;
+    justify-content: center;
+    border-radius: 50%;
+   
+}
+.section-part{
+    text-align: center;
+    justify-content: center;
+}
+.text-part{
+    color: white;
+}
+@media screen and (max-width: 576px) {
+    .display-flex,
+    .banner
+    {
+        flex-direction: column;
+    }
+    .btn-primary{
+        visibility: hidden;
+    }
+    .btn{
+   border-radius: 42px;
+   background: rgb(230, 83, 60);
+   color: white;
+   width: 30%;
+   height: 4vh;
+   font-weight: 400;
+   cursor: pointer;
+}
+.btn-2{
+box-sizing: border-box;
+border: 1px solid rgb(255, 255, 255);
+background: rgb(0, 0, 0);
+color: white;
+border-radius: 42px;
+  width: 30%;
+   height: 4vh;
+   font-weight: 400;
+   cursor: pointer;
+}
+.background-image img{
+    height: 43vh;
+}
+.header-title{
+font-weight: 700;
+ text-align: center;
+ justify-content: center;
+}
+.mangement-part{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);  
+    margin-left: 13%;
+  
+}
+
 }
